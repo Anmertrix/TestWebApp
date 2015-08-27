@@ -1,0 +1,46 @@
+07-Jul-2015 10:27:07.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.23
+07-Jul-2015 10:27:07.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 19 2015 14:58:38 UTC
+07-Jul-2015 10:27:07.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.23.0
+07-Jul-2015 10:27:07.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+07-Jul-2015 10:27:07.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-37-generic
+07-Jul-2015 10:27:07.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-Jul-2015 10:27:07.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+07-Jul-2015 10:27:07.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+07-Jul-2015 10:27:07.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Jul-2015 10:27:07.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/andriy/JAVA/apache-tomcat-8.0.23
+07-Jul-2015 10:27:07.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/andriy/JAVA/apache-tomcat-8.0.23
+07-Jul-2015 10:27:07.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/andriy/JAVA/apache-tomcat-8.0.23/conf/logging.properties
+07-Jul-2015 10:27:07.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Jul-2015 10:27:07.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/home/andriy/JAVA/apache-tomcat-8.0.23/endorsed
+07-Jul-2015 10:27:07.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/andriy/JAVA/apache-tomcat-8.0.23
+07-Jul-2015 10:27:07.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/andriy/JAVA/apache-tomcat-8.0.23
+07-Jul-2015 10:27:07.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/andriy/JAVA/apache-tomcat-8.0.23/temp
+07-Jul-2015 10:27:07.434 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+07-Jul-2015 10:27:07.740 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+07-Jul-2015 10:27:07.790 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jul-2015 10:27:07.794 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Jul-2015 10:27:07.797 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Jul-2015 10:27:07.798 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1213 ms
+07-Jul-2015 10:27:07.831 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Jul-2015 10:27:07.831 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.23
+07-Jul-2015 10:27:07.851 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/ROOT
+07-Jul-2015 10:27:08.470 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jul-2015 10:27:08.535 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/ROOT has finished in 685 ms
+07-Jul-2015 10:27:08.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/examples
+07-Jul-2015 10:27:09.044 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jul-2015 10:27:09.084 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/examples has finished in 548 ms
+07-Jul-2015 10:27:09.084 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/host-manager
+07-Jul-2015 10:27:09.202 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jul-2015 10:27:09.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/host-manager has finished in 132 ms
+07-Jul-2015 10:27:09.216 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/docs
+07-Jul-2015 10:27:09.378 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jul-2015 10:27:09.382 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/docs has finished in 166 ms
+07-Jul-2015 10:27:09.383 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/studentsApp
+07-Jul-2015 10:27:09.537 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jul-2015 10:27:09.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/studentsApp has finished in 164 ms
+07-Jul-2015 10:27:09.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/manager
+07-Jul-2015 10:27:09.629 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Jul-2015 10:27:09.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/andriy/JAVA/apache-tomcat-8.0.23/webapps/manager has finished in 86 ms
+07-Jul-2015 10:27:09.637 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+07-Jul-2015 10:27:09.657 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Jul-2015 10:27:09.658 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1860 ms
